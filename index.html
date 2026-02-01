@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Be My Valentine - Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="heart.svg" type="image/svg+xml">
+</head>
+<body>
+  <main>
+    <div class="dudu-wrap" aria-hidden="true">
+      <img src="dudu.svg" alt="cheeky dudu" class="dudu">
+    </div>
+    <h1>You are my Valentine if you lose :3</h1>
+    <p id="subtitle">Play Tic‑Tac‑Toe. You are <strong>X</strong>. Try to beat me.</p>
+
+    <div id="board" class="board"></div>
+
+    <div class="controls">
+      <button id="restart">Restart</button>
+    </div>
+
+    <div id="message" class="message"></div>
+
+    <div id="valentine" class="valentine hidden">
+      <div class="valentine-card">
+        <h2>Bubu lost to Dudu!!!</h2>
+        <p>Will you be my Valentine?</p>
+        <div class="val-buttons">
+          <button id="yes">Yes 💖</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
